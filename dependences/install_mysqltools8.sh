@@ -77,6 +77,7 @@ then
 else
     echo "${dependences_dir}"
     cd "${dependences_dir}"
+    pip3 install --upgrade pip
     pip3 install ansible/setuptools-41.0.1-py2.py3-none-any.whl
     pip3 install ansible/six-1.12.0-py2.py3-none-any.whl
     pip3 install ansible/MarkupSafe-1.1.1-cp37-cp37m-manylinux1_x86_64.whl
